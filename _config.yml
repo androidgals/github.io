@@ -1,1 +1,7 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-hackerplugins:
+ jekyll-feed
+cat >> _config.yml << EOF
+plugins:
+ jekyll-feed
+plugins:
+- jekyll-feed 
